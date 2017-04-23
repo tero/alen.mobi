@@ -17,13 +17,12 @@ module.exports = React.createClass({
         <Helmet
           title={config.siteTitle}
           meta={[
-            { name: "description", content: "Sample" },
-            { name: "keywords", content: "sample, something" },
+            { name: "description", content: "I am web development professional available also for freelance gigs" },
           ]}
         />
         <div
           style={{
-            background: `rebeccapurple`,
+            background: 'rgb(250, 234, 0)',
             marginBottom: rhythm(1),
           }}
         >
@@ -38,11 +37,11 @@ module.exports = React.createClass({
               <Link
                 to={prefixLink("/")}
                 style={{
-                  color: "white",
+                  color: "black",
                   textDecoration: "none",
                 }}
               >
-                Gatsby
+                Tero Alén
               </Link>
             </h1>
           </div>
