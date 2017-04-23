@@ -8,7 +8,7 @@ export default class Index extends React.Component {
   render() {
     return (
       <div>
-        <Link to={prefixLink('/')}>In english</Link>
+        <Link to={prefixLink('/')} style={{float: 'right'}}>In english</Link>
         <h2>
             Kuka?
         </h2>
